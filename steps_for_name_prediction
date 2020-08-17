@@ -1,0 +1,36 @@
+Predict the nationality of a name
+An API for predicting nationality from a name
+https://nationalize.io/
+
+to show data use following site
+https://nationalize.io/our-data
+
+https://api.nationalize.io/?name=donald
+
+- create new project
+
+- clean project and print hello
+
+- call api with fixed name
+
+- input box and button to accept api, handler function
+
+- accept name from input box and fetch results
+
+- clear input box after showing result
+
+- check for validation, no name print error message, no result found print 'No results'
+
+- Add Text like headers
+
+- Show country using npm package
+ 	import  lookup from 'country-code-lookup';
+ 
+  	take to npm site and explain that page --- country-code-lookup
+  
+	create component and pass data and convert country_id to country name.
+	
+- set probaility to 2 
+
+
+- add css

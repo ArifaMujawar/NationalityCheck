@@ -45,7 +45,7 @@ const Nationalise = () => {
             <hr />
             <div className="wrapper">
                 <input type="text" id="name" placeholder="Please Enter a Name..."/>
-                <button onClick={handleClick}>Click me</button>
+                <button onClick={handleClick}>Click Nationality</button>
                 <Display result={result} name={name} error={error}/>
             </div>
         </div>

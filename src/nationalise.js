@@ -68,7 +68,7 @@ const ConvertToCountry = ({i, c}) => {
     console.log('res ',res)
     return(
         <div>
-            <p className="Result" i={i}>{res}, {c.country_id} with a probability of {parseFloat(c.probability).toFixed(2)}</p>
+            <p className="Result" i={i}>In {res}, {c.country_id} with a probability of {parseFloat(c.probability).toFixed(2)}</p>
         </div>
     )
 }
